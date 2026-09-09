@@ -1,0 +1,21 @@
+# ninja log v7
+1	68	8080770210936848	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-mkdir	408be2abe974671
+1	68	8080770210936848	D:/Rizky Ramadhan/Projek/Bahasa C++/PongGame/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-mkdir	408be2abe974671
+4	599	8103073843701981	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-download	abaa4cb54db7cf0f
+4	599	8103073843701981	D:/Rizky Ramadhan/Projek/Bahasa C++/PongGame/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-download	abaa4cb54db7cf0f
+599	2164	8103073845747150	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-update	f41b743028e9e8a2
+599	2164	8103073845747150	D:/Rizky Ramadhan/Projek/Bahasa C++/PongGame/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-update	f41b743028e9e8a2
+2164	2451	8103073864083647	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-patch	e544b09e236206c9
+2164	2451	8103073864083647	D:/Rizky Ramadhan/Projek/Bahasa C++/PongGame/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-patch	e544b09e236206c9
+2452	2678	8103073866351703	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-configure	a3afb827825070e4
+2452	2678	8103073866351703	D:/Rizky Ramadhan/Projek/Bahasa C++/PongGame/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-configure	a3afb827825070e4
+2678	2925	8103073868480466	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-build	188bc3f577462ac9
+2678	2925	8103073868480466	D:/Rizky Ramadhan/Projek/Bahasa C++/PongGame/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-build	188bc3f577462ac9
+2925	3166	8103073871187353	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-install	ce6aa3a3487d42ae
+2925	3166	8103073871187353	D:/Rizky Ramadhan/Projek/Bahasa C++/PongGame/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-install	ce6aa3a3487d42ae
+3166	3374	8103073873333760	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-test	7e28ad27662d7096
+3166	3374	8103073873333760	D:/Rizky Ramadhan/Projek/Bahasa C++/PongGame/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-test	7e28ad27662d7096
+3374	3611	8103073875746646	CMakeFiles/raylib-populate-complete	6d9bd194716d5be2
+3374	3611	8103073875746646	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-done	6d9bd194716d5be2
+3374	3611	8103073875746646	D:/Rizky Ramadhan/Projek/Bahasa C++/PongGame/build/_deps/raylib-subbuild/CMakeFiles/raylib-populate-complete	6d9bd194716d5be2
+3374	3611	8103073875746646	D:/Rizky Ramadhan/Projek/Bahasa C++/PongGame/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-done	6d9bd194716d5be2

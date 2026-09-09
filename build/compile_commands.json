@@ -1,0 +1,20 @@
+[
+{
+  "directory": "D:/Rizky Ramadhan/Projek/Bahasa C++/PongGame/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++17 -o CMakeFiles\\ZombieGame.dir\\src\\main.cpp.obj -c \"D:\\Rizky Ramadhan\\Projek\\Bahasa C++\\PongGame\\src\\main.cpp\"",
+  "file": "D:/Rizky Ramadhan/Projek/Bahasa C++/PongGame/src/main.cpp",
+  "output": "D:/Rizky Ramadhan/Projek/Bahasa C++/PongGame/build/CMakeFiles/ZombieGame.dir/src/main.cpp.obj"
+},
+{
+  "directory": "D:/Rizky Ramadhan/Projek/Bahasa C++/PongGame/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++17 -o CMakeFiles\\ZombieGame.dir\\src\\Player.cpp.obj -c \"D:\\Rizky Ramadhan\\Projek\\Bahasa C++\\PongGame\\src\\Player.cpp\"",
+  "file": "D:/Rizky Ramadhan/Projek/Bahasa C++/PongGame/src/Player.cpp",
+  "output": "D:/Rizky Ramadhan/Projek/Bahasa C++/PongGame/build/CMakeFiles/ZombieGame.dir/src/Player.cpp.obj"
+},
+{
+  "directory": "D:/Rizky Ramadhan/Projek/Bahasa C++/PongGame/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++17 -o CMakeFiles\\ZombieGame.dir\\src\\Zombie.cpp.obj -c \"D:\\Rizky Ramadhan\\Projek\\Bahasa C++\\PongGame\\src\\Zombie.cpp\"",
+  "file": "D:/Rizky Ramadhan/Projek/Bahasa C++/PongGame/src/Zombie.cpp",
+  "output": "D:/Rizky Ramadhan/Projek/Bahasa C++/PongGame/build/CMakeFiles/ZombieGame.dir/src/Zombie.cpp.obj"
+}
+]
