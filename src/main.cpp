@@ -1,7 +1,7 @@
 #include <iostream>
 
-#include "Player.hpp"
-#include "Zombie.hpp"
+#include "Core/Player.hpp"
+#include "Core/Zombie.hpp"
 
 int main(){
     Player player = Player("player");

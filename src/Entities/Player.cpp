@@ -1,7 +1,7 @@
 #include <iostream>
 
-#include "Player.hpp"
-#include "Zombie.hpp"
+#include "../Core/Player.hpp"
+#include "../Core/Zombie.hpp"
 
 Player::Player(std::string name){
     this->name = name;
@@ -41,28 +41,28 @@ bool Player::getAlive() const{
 }
 
 
-void Player::setName(std::string name) const{
+void Player::setName(std::string name) {
     this->name = name;
 }
-void Player::setStamina(int stamina) const{
+void Player::setStamina(int stamina) {
     this->stamina = stamina;
 }
-void Player::setMaxStamina(int maxStamina) const{
+void Player::setMaxStamina(int maxStamina) {
     this->maxStamina = maxStamina;
 }
-void Player::setHp(int hp) const{
+void Player::setHp(int hp) {
     this->hp = hp;
 }
-void Player::setMaxHp(int maxHp) const{
+void Player::setMaxHp(int maxHp) {
     this->maxHp = maxHp;
 }
-void Player::setIsBleeding(bool isBleeding) const{
+void Player::setIsBleeding(bool isBleeding) {
     this->isBleeding = isBleeding;
 }
-void Player::setInfectionLevel(int infectionLevel) const{
+void Player::setInfectionLevel(int infectionLevel) {
     this->infectionLevel = infectionLevel;
 }
-void Player::setAlive(bool alive) const{
+void Player::setAlive(bool alive) {
     this->alive = alive;
 }
 

@@ -1,7 +1,7 @@
 #include <iostream>
 
-#include "Zombie.hpp"
-#include "Player.hpp"
+#include "../Core/Zombie.hpp"
+#include "../Core/Player.hpp"
 
 // CONSTRUCTOR
 Zombie::Zombie(std::string name, std::string type, int maxHp, int damage){

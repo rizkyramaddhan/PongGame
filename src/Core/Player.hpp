@@ -32,14 +32,14 @@ class Player {
         bool getAlive() const;
 
         // Setters
-        void setName(std::string name) const;
-        void setHp(int hp) const;
-        void setMaxHp(int maxHp) const;
-        void setStamina(int stamina) const;
-        void setMaxStamina(int maxStamina) const;
-        void setIsBleeding(bool isBleeding) const;
-        void setInfectionLevel(int infectionLevel) const;
-        void setAlive(bool alive) const;
+        void setName(std::string name) ;
+        void setHp(int hp) ;
+        void setMaxHp(int maxHp) ;
+        void setStamina(int stamina) ;
+        void setMaxStamina(int maxStamina) ;
+        void setIsBleeding(bool isBleeding) ;
+        void setInfectionLevel(int infectionLevel) ;
+        void setAlive(bool alive) ;
 
         void isAlive();
         void takeDamage(int amount);
