@@ -70,9 +70,7 @@ void Zombie::displayStatus(){
 }
 void Zombie::attack(Player & target){
     target.takeDamage(this->getDamage());
-    if(target.getHp() < 0 ){
-        target.setHp(0);
-    }
+    target.isAlive();
     std::cout << this->getName() << " menyerang " << target.getName() << "!" << std::endl;
 }
 void Zombie::takeDamage(int amount){

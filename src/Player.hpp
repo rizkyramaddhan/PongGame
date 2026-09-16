@@ -3,9 +3,12 @@
 
 #include <string>
 
+class Zombie;
+
 class Player {
     private :
         std::string name;
+        int damage;
         int hp;
         int maxHp;
         int stamina;
@@ -20,26 +23,27 @@ class Player {
 
         // Getters & Status Check
         std::string getName();
-        int getHp();
-        int getMaxHp();
-        int getStamina();
-        int getMaxStamina();
-        bool getIsBleeding();
-        int getInfectionLevel();
-        bool getAlive();
+        int getHp() const;
+        int getMaxHp() const;
+        int getStamina() const;
+        int getMaxStamina() const;
+        bool getIsBleeding() const;
+        int getInfectionLevel() const;
+        bool getAlive() const;
 
         // Setters
-        void setName(std::string name);
-        void setHp(int hp);
-        void setMaxHp(int maxHp);
-        void setStamina(int stamina);
-        void setMaxStamina(int maxStamina);
-        void setIsBleeding(bool isBleeding);
-        void setInfectionLevel(int infectionLevel);
-        void setAlive(bool alive);
+        void setName(std::string name) const;
+        void setHp(int hp) const;
+        void setMaxHp(int maxHp) const;
+        void setStamina(int stamina) const;
+        void setMaxStamina(int maxStamina) const;
+        void setIsBleeding(bool isBleeding) const;
+        void setInfectionLevel(int infectionLevel) const;
+        void setAlive(bool alive) const;
 
         void isAlive();
         void takeDamage(int amount);
+        void attack(Zombie & target);
         void prosessTurnTick();
         void healBleeding();
         void displayStatus();

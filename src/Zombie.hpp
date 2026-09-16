@@ -2,7 +2,8 @@
 #define ZOMBIE_H
 
 #include <string>
-#include "Player.hpp"
+
+class Player;
 
 class Zombie{
     private :
