@@ -12,7 +12,7 @@ int main(){
         player.prosessTurnTick();
         if(player.getIsBleeding() == true){
             player.healBleeding();
-        }
+        } 
     }
     std::cin.get();
     return 0;
