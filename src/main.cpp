@@ -3,11 +3,16 @@
 #include "./Entities/Player.hpp"
 #include "./Entities/Zombie.hpp"
 #include "./Items/Weapon.hpp"
+#include "./Items/Inventory.hpp"
 
 int main(){
+    Player player = Player("Player");
     Weapon M4A1 = Weapon("M4A1", 50, 100);
-    M4A1.setAmmo(30);
-    if(M4A1.use() == true) std::cout << "M4A1 used\n";
+    Weapon AK47 = Weapon("AK47", 50, 100);
+    Weapon Dagger = Weapon("Dagger", 50, 100);
+    Inventory inventory = Inventory();
+    player.getInventory().addWeapon(M4A1);
+    player.getInventory().displayInventory();
     std::cin.get();
     return 0;
 }

@@ -111,3 +111,8 @@ void Player::displayStatus(){
     std::cout << "Infection Level : " << this->infectionLevel << std::endl;
     std::cout << "Player Alive : " << getAlive() << std::endl;
 }
+
+
+Inventory & Player::getInventory(){
+    return this->inventory;
+}

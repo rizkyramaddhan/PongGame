@@ -22,5 +22,11 @@
   "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++17 -o CMakeFiles\\ZombieGame.dir\\src\\Items\\Weapon.cpp.obj -c \"D:\\Rizky Ramadhan\\Projek\\Bahasa C++\\PongGame\\src\\Items\\Weapon.cpp\"",
   "file": "D:/Rizky Ramadhan/Projek/Bahasa C++/PongGame/src/Items/Weapon.cpp",
   "output": "D:/Rizky Ramadhan/Projek/Bahasa C++/PongGame/build/CMakeFiles/ZombieGame.dir/src/Items/Weapon.cpp.obj"
+},
+{
+  "directory": "D:/Rizky Ramadhan/Projek/Bahasa C++/PongGame/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -g -std=gnu++17 -o CMakeFiles\\ZombieGame.dir\\src\\Items\\Inventory.cpp.obj -c \"D:\\Rizky Ramadhan\\Projek\\Bahasa C++\\PongGame\\src\\Items\\Inventory.cpp\"",
+  "file": "D:/Rizky Ramadhan/Projek/Bahasa C++/PongGame/src/Items/Inventory.cpp",
+  "output": "D:/Rizky Ramadhan/Projek/Bahasa C++/PongGame/build/CMakeFiles/ZombieGame.dir/src/Items/Inventory.cpp.obj"
 }
 ]

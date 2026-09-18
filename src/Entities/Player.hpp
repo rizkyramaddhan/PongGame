@@ -3,6 +3,8 @@
 
 #include <string>
 
+#include "../Items/Inventory.hpp"
+
 class Zombie;
 
 class Player {
@@ -16,6 +18,7 @@ class Player {
         bool isBleeding;
         int infectionLevel;
         bool alive;
+        Inventory inventory;
 
     public :
         // Constructor
@@ -47,6 +50,7 @@ class Player {
         void prosessTurnTick();
         void healBleeding();
         void displayStatus();
+        Inventory & getInventory();
 
 };
 
