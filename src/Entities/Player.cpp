@@ -1,7 +1,7 @@
 #include <iostream>
 
-#include "../Core/Player.hpp"
-#include "../Core/Zombie.hpp"
+#include "Player.hpp"
+#include "Zombie.hpp"
 
 Player::Player(std::string name){
     this->name = name;

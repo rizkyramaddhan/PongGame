@@ -57,20 +57,28 @@ build CMakeFiles/ZombieGame.dir/src/main.cpp.obj: CXX_COMPILER__ZombieGame_unsca
   OBJECT_FILE_DIR = CMakeFiles\ZombieGame.dir\src
   TARGET_SUPPORT_DIR = CMakeFiles\ZombieGame.dir
 
-build CMakeFiles/ZombieGame.dir/src/Player.cpp.obj: CXX_COMPILER__ZombieGame_unscanned_Debug D$:/Rizky$ Ramadhan/Projek/Bahasa$ C++/PongGame/src/Player.cpp || cmake_object_order_depends_target_ZombieGame
+build CMakeFiles/ZombieGame.dir/src/Entities/Player.cpp.obj: CXX_COMPILER__ZombieGame_unscanned_Debug D$:/Rizky$ Ramadhan/Projek/Bahasa$ C++/PongGame/src/Entities/Player.cpp || cmake_object_order_depends_target_ZombieGame
   CONFIG = Debug
-  DEP_FILE = CMakeFiles\ZombieGame.dir\src\Player.cpp.obj.d
+  DEP_FILE = CMakeFiles\ZombieGame.dir\src\Entities\Player.cpp.obj.d
   FLAGS = -g -std=gnu++17
   OBJECT_DIR = CMakeFiles\ZombieGame.dir
-  OBJECT_FILE_DIR = CMakeFiles\ZombieGame.dir\src
+  OBJECT_FILE_DIR = CMakeFiles\ZombieGame.dir\src\Entities
   TARGET_SUPPORT_DIR = CMakeFiles\ZombieGame.dir
 
-build CMakeFiles/ZombieGame.dir/src/Zombie.cpp.obj: CXX_COMPILER__ZombieGame_unscanned_Debug D$:/Rizky$ Ramadhan/Projek/Bahasa$ C++/PongGame/src/Zombie.cpp || cmake_object_order_depends_target_ZombieGame
+build CMakeFiles/ZombieGame.dir/src/Entities/Zombie.cpp.obj: CXX_COMPILER__ZombieGame_unscanned_Debug D$:/Rizky$ Ramadhan/Projek/Bahasa$ C++/PongGame/src/Entities/Zombie.cpp || cmake_object_order_depends_target_ZombieGame
   CONFIG = Debug
-  DEP_FILE = CMakeFiles\ZombieGame.dir\src\Zombie.cpp.obj.d
+  DEP_FILE = CMakeFiles\ZombieGame.dir\src\Entities\Zombie.cpp.obj.d
   FLAGS = -g -std=gnu++17
   OBJECT_DIR = CMakeFiles\ZombieGame.dir
-  OBJECT_FILE_DIR = CMakeFiles\ZombieGame.dir\src
+  OBJECT_FILE_DIR = CMakeFiles\ZombieGame.dir\src\Entities
+  TARGET_SUPPORT_DIR = CMakeFiles\ZombieGame.dir
+
+build CMakeFiles/ZombieGame.dir/src/Items/Weapon.cpp.obj: CXX_COMPILER__ZombieGame_unscanned_Debug D$:/Rizky$ Ramadhan/Projek/Bahasa$ C++/PongGame/src/Items/Weapon.cpp || cmake_object_order_depends_target_ZombieGame
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\ZombieGame.dir\src\Items\Weapon.cpp.obj.d
+  FLAGS = -g -std=gnu++17
+  OBJECT_DIR = CMakeFiles\ZombieGame.dir
+  OBJECT_FILE_DIR = CMakeFiles\ZombieGame.dir\src\Items
   TARGET_SUPPORT_DIR = CMakeFiles\ZombieGame.dir
 
 
@@ -81,7 +89,7 @@ build CMakeFiles/ZombieGame.dir/src/Zombie.cpp.obj: CXX_COMPILER__ZombieGame_uns
 #############################################
 # Link the executable ZombieGame.exe
 
-build ZombieGame.exe: CXX_EXECUTABLE_LINKER__ZombieGame_Debug CMakeFiles/ZombieGame.dir/src/main.cpp.obj CMakeFiles/ZombieGame.dir/src/Player.cpp.obj CMakeFiles/ZombieGame.dir/src/Zombie.cpp.obj
+build ZombieGame.exe: CXX_EXECUTABLE_LINKER__ZombieGame_Debug CMakeFiles/ZombieGame.dir/src/main.cpp.obj CMakeFiles/ZombieGame.dir/src/Entities/Player.cpp.obj CMakeFiles/ZombieGame.dir/src/Entities/Zombie.cpp.obj CMakeFiles/ZombieGame.dir/src/Items/Weapon.cpp.obj
   CONFIG = Debug
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32

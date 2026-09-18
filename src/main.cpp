@@ -1,19 +1,13 @@
 #include <iostream>
 
-#include "Core/Player.hpp"
-#include "Core/Zombie.hpp"
+#include "./Entities/Player.hpp"
+#include "./Entities/Zombie.hpp"
+#include "./Items/Weapon.hpp"
 
 int main(){
-    Player player = Player("player");
-    Zombie zombie = Zombie("zombie", "normal", 100, 10);
-    while(zombie.getAlive() == true && player.getAlive() == true){
-        player.attack(zombie);
-        zombie.attack(player);
-        player.prosessTurnTick();
-        if(player.getIsBleeding() == true){
-            player.healBleeding();
-        } 
-    }
+    Weapon M4A1 = Weapon("M4A1", 50, 100);
+    M4A1.setAmmo(30);
+    if(M4A1.use() == true) std::cout << "M4A1 used\n";
     std::cin.get();
     return 0;
 }

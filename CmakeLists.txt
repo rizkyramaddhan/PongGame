@@ -5,4 +5,4 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 project(ZombieGame)
 
-add_executable(ZombieGame src/main.cpp src/Player.cpp src/Zombie.cpp)
+add_executable(ZombieGame src/main.cpp src/Entities/Player.cpp src/Entities/Zombie.cpp src/Items/Weapon.cpp)
