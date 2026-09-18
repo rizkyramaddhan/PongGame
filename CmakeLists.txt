@@ -2,7 +2,12 @@ cmake_minimum_required(VERSION 3.10)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
+set(BUILD_SHARED_LIBS OFF CACHE BOOL "" FORCE)
+
+find_package(raylib REQUIRED)
 
 project(ZombieGame)
 
 add_executable(ZombieGame src/main.cpp src/Entities/Player.cpp src/Entities/Zombie.cpp src/Items/Weapon.cpp src/Items/Inventory.cpp)
+
+target_link_libraries(ZombieGame PRIVATE raylib)

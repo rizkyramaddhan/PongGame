@@ -1,3 +1,0 @@
-D:/Rizky Ramadhan/Projek/Bahasa C++/PongGame/build/CMakeFiles/ZombieGame.dir
-D:/Rizky Ramadhan/Projek/Bahasa C++/PongGame/build/CMakeFiles/edit_cache.dir
-D:/Rizky Ramadhan/Projek/Bahasa C++/PongGame/build/CMakeFiles/rebuild_cache.dir
